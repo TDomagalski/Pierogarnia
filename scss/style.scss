@@ -97,11 +97,6 @@ h2 {
     height: auto;
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
-    transition: .5s;
-
-    &:hover {
-      transform: scale(1.1);
-    }
   }
   .p-quality_box {
     position: relative;
