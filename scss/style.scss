@@ -2,7 +2,6 @@
 
 body {
   overflow-x: hidden;
-  // font-family: 'Open Sans', sans-serif;
   font-family: 'Kaushan Script', cursive;
   letter-spacing: 1.5px;
 }
@@ -25,8 +24,6 @@ h2 {
 .container-logo {
   position: fixed;
   z-index: 999;
-  // background-color: #ffd400f8;
-  // background-color: #ffec0ae8;
   background-image: url(../img/top-bg.jpg);
   background-size: contain;
   width: 100%;
@@ -95,6 +92,7 @@ h2 {
   p:nth-child(3) {
     font-size: 24px;
     font-weight: bold;
+    text-align: center;
     @media (min-width: $break-medium) {
       font-size: 32px;
     }
@@ -299,12 +297,7 @@ h2 {
           transform: translate(0, -15px);
         }
       }
-      .p-staff_dumplings_txt {
-        height: 25px;
-        font-size: 20px;
-        font-weight: 700;
-      }
-      .p-staff_dumplings_price {
+      .p-staff_dumplings_txt, .p-staff_dumplings_price {
         font-size: 20px;
         font-weight: 700;
       }
