@@ -1,1 +1,60 @@
-// @import "constantly";
+@import "constantly";
+
+body {
+  overflow-x: hidden;
+  font-family: 'Kaushan Script', cursive;
+  letter-spacing: 1.5px;
+}
+
+.container-logo {
+  position: fixed;
+  z-index: 999;
+  background-image: url(../img/top-bg.jpg);
+  background-size: contain;
+  width: 100%;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+  .contant-logo {
+    display: block;
+    width: 100%;
+    margin: auto;
+    @media (min-width: $break-medium) {
+      width: 20%;
+      margin: auto;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      -webkit-transition: 0.3s ease-in-out;
+        -moz-transition: 0.3s ease-in-out;
+        -ms-transition: 0.3s ease-in-out;
+        -o-transition: 0.3s ease-in-out;
+        transition: 0.3s ease-in-out;
+    }
+  }
+  .logo-min {
+    img {
+      max-width: 60%;
+      -webkit-transition: 0.3s ease-in-out;
+        -moz-transition: 0.3s ease-in-out;
+        -ms-transition: 0.3s ease-in-out;
+        -o-transition: 0.3s ease-in-out;
+        transition: 0.3s ease-in-out;
+    }
+  }
+}
+
+footer {
+  position: relative;
+  background-color: aliceblue;
+  text-align: center;
+  padding: 20px;
+  font-size: 1rem;
+  line-height: 1,5;
+  a {
+    position: absolute;
+    right: 0;
+    font-size: .7rem;
+  }
+}
