@@ -12,6 +12,9 @@ h2 {
 .p-txt_red {
   color: red; }
 
+.p-txt_black {
+  color: #000; }
+
 .p-margin_box {
   margin: 20px 0; }
 
@@ -284,7 +287,8 @@ h2 {
   width: 100%; }
   .p-other_b h2 {
     font-size: 35px;
-    font-weight: 700; }
+    font-weight: 700;
+    color: #000; }
   .p-other_b .p-business_links {
     display: flex;
     justify-content: space-around;
