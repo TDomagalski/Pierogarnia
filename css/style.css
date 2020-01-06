@@ -245,7 +245,7 @@ h2 {
           transform: translate(0, -15px); }
       .p-offer .p-staff .p-staff_dumplings .p-staff_dumplings_imgHat {
         display: block;
-        background-image: url("../img/cook-hat.jpg");
+        background-image: url("../img/cook-hat.png");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -257,6 +257,20 @@ h2 {
           -o-transform: translate(0, -15px);
           -webkit-transform: translate(0, -15px);
           transform: translate(0, -15px); }
+      .p-offer .p-staff .p-staff_dumplings .p-staff_dumplings_imgSoup {
+        display: block;
+        background-image: url("../img/soup.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 200px;
+        transition: .5s; }
+        .p-offer .p-staff .p-staff_dumplings .p-staff_dumplings_imgSoup:hover {
+          -moz-transform: scale(1.1);
+          -ms-transform: scale(1.1);
+          -o-transform: scale(1.1);
+          -webkit-transform: scale(1.1);
+          transform: scale(1.1); }
       .p-offer .p-staff .p-staff_dumplings .p-staff_dumplings_txt, .p-offer .p-staff .p-staff_dumplings .p-staff_dumplings_price {
         font-size: 20px;
         font-weight: 700; }
